@@ -1,9 +1,12 @@
 import './Home.css';
+import MainHeader from '../../Components/MainHeader';
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
+    <>
+      <MainHeader/>
+    </>
+    )
 }
 
 export default Home;
